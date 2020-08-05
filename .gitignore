@@ -4,8 +4,8 @@ Source/*.user
 Source/*.suo
 
 # c sharp
-Source/bin/
-Source/obj/
+Source/MattFengTestMain/bin/
+Source/MattFengTestMain/obj/
 
 # asp.net
 Source/aspnet_client/
