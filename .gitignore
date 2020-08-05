@@ -1,4 +1,23 @@
-﻿################################################################################
+﻿# visual studio
+.vs/
+*.user
+*.suo
+
+# c sharp
+bin/
+obj/
+
+# asp.net
+aspnet_client/
+Web.Debug.config
+Web.Release.config
+
+# others
+compilerconfig.json.defaults
+*.bak
+_*.*
+_*/
+################################################################################
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
