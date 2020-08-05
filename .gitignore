@@ -4,8 +4,8 @@
 /Source/*.suo
 
 # c sharp
-/Source/MattFengTestMain/bin/
-/Source/MattFengTestMain/obj/
+/Source/MattFengTestMain/bin
+/Source/MattFengTestMain/obj
 
 ################################################################################
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
