@@ -209,7 +209,7 @@ namespace MattFengTestMain
                     cpuInfo = mo.Properties["ProcessorId"].Value.ToString();
                     mo.Dispose();
                 }
-            }
+            } 
             return cpuInfo.ToString();
         }
         #endregion
