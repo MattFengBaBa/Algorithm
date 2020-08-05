@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using XY;
 
 namespace MattFengTestMain
 {
@@ -19,10 +21,28 @@ namespace MattFengTestMain
     public class ReConstructBinaryTree
     {
 
+        public  TreeNode reConstructBinaryTree(int[] pre, int[] tin)
+        {
+            var result = this.reConstructBinaryTree(pre, 0, pre.Length - 1, tin, 0, tin.Length - 1);
 
-        //public static TreeNode reConstructBinaryTree(int[] pre, int[] tin)
-        //{ 
-        
-        //}
+            return result;
+        }
+
+        private TreeNode reConstructBinaryTree(int[] pre,int startPre,int endPre,int[] tin,int startTin,int endTin)
+        {
+            if (startPre > endPre || startTin > endTin)
+                return null;
+            TreeNode root =new TreeNode( pre[startPre]);
+
+            for (int i = startTin; i <= endTin; i++)
+            {
+                if (pre[startPre] == tin[i])
+                {
+                    root.left = reConstructBinaryTree(pre, startPre + 1, startPre + i - startTin, tin, startTin, i- 1);
+                    root.right = reConstructBinaryTree(pre, startPre + i - startTin + 1, endPre, tin, i+1, endTin);
+                }
+            }
+            return root;
+        }
     }
 }

@@ -108,7 +108,11 @@ namespace MattFengTestMain
             //var result=  replaceSpace.replaceSpace("We Are Happy");
             //Console.WriteLine(result);
 
+            //int[] before = { 1, 2, 4, 7, 3, 5, 6, 8 };
+            //int[] middle = { 4, 7, 2, 1, 5, 3, 8, 6 };
+            //var result= new ReConstructBinaryTree().reConstructBinaryTree(before,middle);
             #endregion
+
             Console.ReadKey();
         }
 
