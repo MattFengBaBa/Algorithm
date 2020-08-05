@@ -1,22 +1,12 @@
 ﻿# visual studio
-Source/.vs/
-Source/*.user
-Source/*.suo
+/Source/.vs/
+/Source/*.user
+/Source/*.suo
 
 # c sharp
-Source/MattFengTestMain/bin/
-Source/MattFengTestMain/obj/
+/Source/MattFengTestMain/bin/
+/Source/MattFengTestMain/obj/
 
-# asp.net
-Source/aspnet_client/
-Source/Web.Debug.config
-Source/Web.Release.config
-
-# others
-Source/compilerconfig.json.defaults
-Source/*.bak
-Source/_*.*
-Source/_*/
 ################################################################################
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
