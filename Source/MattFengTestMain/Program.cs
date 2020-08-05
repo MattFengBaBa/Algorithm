@@ -89,6 +89,7 @@ namespace MattFengTestMain
             #endregion
 
 
+            #region 测试
             //var test = new DrinkMinMoney();
             //Console.WriteLine(test.GetMinMoney());
             //var target = 7;
@@ -103,9 +104,11 @@ namespace MattFengTestMain
             //}
             //Console.WriteLine(DecryptTest.GetCpuInfo());
 
-            ReplaceSpace replaceSpace = new ReplaceSpace();
-            var result=  replaceSpace.replaceSpace("We Are Happy");
-            Console.WriteLine(result);
+            //ReplaceSpace replaceSpace = new ReplaceSpace();
+            //var result=  replaceSpace.replaceSpace("We Are Happy");
+            //Console.WriteLine(result);
+
+            #endregion
             Console.ReadKey();
         }
 
@@ -213,6 +216,7 @@ namespace MattFengTestMain
             return cpuInfo.ToString();
         }
         #endregion
+
     }
 }
 

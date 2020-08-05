@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MattFengTestMain
 {
+    /// <summary>
+    /// 恩捷OCV PLC 逻辑
+    /// </summary>
     class Class1
     {
         private void main()
