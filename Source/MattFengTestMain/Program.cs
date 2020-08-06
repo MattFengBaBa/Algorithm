@@ -112,24 +112,32 @@ namespace MattFengTestMain
             //int[] before = { 1, 2, 4, 7, 3, 5, 6, 8 };
             //int[] middle = { 4, 7, 2, 1, 5, 3, 8, 6 };
             //var result= new ReConstructBinaryTree().reConstructBinaryTree(before,middle);
+
+
+            //int[] a = { 1, 2, 3, 4, 5, 6 };
+
+            //Queue<int> que = new Queue<int>();
+            //StackRealizeQueue stackRealizeQueue = new StackRealizeQueue();
+
+            //que.Enqueue(a[0]);
+            //que.Enqueue(a[1]);
+            //que.Enqueue(a[2]);
+            //var result1 = que.Dequeue();
+            //result1 = que.Dequeue();
+            //stackRealizeQueue.Push(a[0]);
+            //stackRealizeQueue.Push(a[1]);
+            //stackRealizeQueue.Push(a[2]);
+            //var result2 = stackRealizeQueue.Pop();
+            //result2 = stackRealizeQueue.Pop();
+
+            //int[] a = { 3, 1, 5, 6, 7 };
+            //var result = new MinNumberInRotateArray().minNumberInRotateArray(a);
+
+            var result = new Fibonacci().fibonacci(8);
+            Console.WriteLine(result);
             #endregion
 
 
-            int[] a = { 1, 2, 3, 4, 5, 6 };
-
-            Queue<int> que= new Queue<int>();
-            StackRealizeQueue stackRealizeQueue = new StackRealizeQueue();
-
-            que.Enqueue(a[0]);
-            que.Enqueue(a[1]);
-            que.Enqueue(a[2]);
-            var result1 = que.Dequeue();
-              result1 = que.Dequeue();
-            stackRealizeQueue.Push(a[0]);
-            stackRealizeQueue.Push(a[1]);
-            stackRealizeQueue.Push(a[2]);
-            var result2 = stackRealizeQueue.Pop();
-            result2 = stackRealizeQueue.Pop();
 
             Console.ReadKey();
         }
