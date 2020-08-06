@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MattFengTestMain.Algorithm;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Management;
@@ -112,6 +113,23 @@ namespace MattFengTestMain
             //int[] middle = { 4, 7, 2, 1, 5, 3, 8, 6 };
             //var result= new ReConstructBinaryTree().reConstructBinaryTree(before,middle);
             #endregion
+
+
+            int[] a = { 1, 2, 3, 4, 5, 6 };
+
+            Queue<int> que= new Queue<int>();
+            StackRealizeQueue stackRealizeQueue = new StackRealizeQueue();
+
+            que.Enqueue(a[0]);
+            que.Enqueue(a[1]);
+            que.Enqueue(a[2]);
+            var result1 = que.Dequeue();
+              result1 = que.Dequeue();
+            stackRealizeQueue.Push(a[0]);
+            stackRealizeQueue.Push(a[1]);
+            stackRealizeQueue.Push(a[2]);
+            var result2 = stackRealizeQueue.Pop();
+            result2 = stackRealizeQueue.Pop();
 
             Console.ReadKey();
         }
