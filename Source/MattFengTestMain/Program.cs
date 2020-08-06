@@ -89,7 +89,6 @@ namespace MattFengTestMain
             //File.Move("临时文件","要写入的文件名" );
             #endregion
 
-
             #region 测试
             //var test = new DrinkMinMoney();
             //Console.WriteLine(test.GetMinMoney());
@@ -134,10 +133,10 @@ namespace MattFengTestMain
             //var result = new MinNumberInRotateArray().minNumberInRotateArray(a);
 
             var result = new Fibonacci().fibonacci(8);
-            Console.WriteLine(result);
+
             #endregion
 
-
+            Console.WriteLine(result);
 
             Console.ReadKey();
         }
