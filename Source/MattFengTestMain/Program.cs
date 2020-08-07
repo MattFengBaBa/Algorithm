@@ -132,13 +132,29 @@ namespace MattFengTestMain
             //int[] a = { 3, 1, 5, 6, 7 };
             //var result = new MinNumberInRotateArray().minNumberInRotateArray(a);
 
-            var result = new Fibonacci().fibonacci(8);
-
+            while (true)
+            {
+                Console.WriteLine("请输入想要买的瓶数");
+                int bottle = 0;
+                try
+                {
+                    bottle = Convert.ToInt32(Console.ReadLine());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("输入的有误,详情："+ex.ToString());
+                    continue;
+                }
+                var result = new DrinkMinMoney().GetMinMoney(bottle);
+                Console.WriteLine($"买{bottle}瓶需要花的钱:"+ result+"元");
+                Console.WriteLine();
+                Console.ReadKey();
+            }
             #endregion
 
-            Console.WriteLine(result);
+            //Console.WriteLine(result);
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
     }
