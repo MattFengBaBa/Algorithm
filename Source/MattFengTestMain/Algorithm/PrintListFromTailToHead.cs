@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MattFengTestMain
 {
+    /// <summary>
+    /// 从尾到头打印链表
+    /// </summary>
    public class PrintListFromTailToHead
     {
         // 输入一个链表，按链表从尾到头的顺序返回一个ArrayList。

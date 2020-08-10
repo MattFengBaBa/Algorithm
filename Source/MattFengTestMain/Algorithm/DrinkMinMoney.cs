@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace MattFengTestMain
-{
+{   
+    /// <summary>
+    /// 新威面试题
+    /// </summary>
     public class DrinkMinMoney
     {
         //汽水2元一瓶。喝完后两个空瓶可换一瓶汽水或一个空瓶可换五毛钱，另每消费满3元返1元，想要喝10瓶汽水，最少支出多少钱？请编写代码实现。

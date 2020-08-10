@@ -132,11 +132,16 @@ namespace MattFengTestMain
             //int[] a = { 3, 1, 5, 6, 7 };
             //var result = new MinNumberInRotateArray().minNumberInRotateArray(a);
 
-            var result = new Fibonacci().fibonacci(8);
-
+            //for (int i = 0; i < 7; i++)
+            //{
+            //    var result = new JumpFloor().jumpFloorII(i);
+            //    Console.WriteLine($"第{i}层的结果:"+ result);
+            //}
+            var result = new NumberOf1().numberOf1(-7);
+            Console.WriteLine(result);
             #endregion
 
-            Console.WriteLine(result);
+
 
             Console.ReadKey();
         }
