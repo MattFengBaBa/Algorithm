@@ -132,6 +132,25 @@ namespace MattFengTestMain
             //int[] a = { 3, 1, 5, 6, 7 };
             //var result = new MinNumberInRotateArray().minNumberInRotateArray(a);
 
+            while (true)
+            {
+                Console.WriteLine("请输入想要买的瓶数");
+                int bottle = 0;
+                try
+                {
+                    bottle = Convert.ToInt32(Console.ReadLine());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("输入的有误,详情："+ex.ToString());
+                    continue;
+                }
+                var result = new DrinkMinMoney().GetMinMoney(bottle);
+                Console.WriteLine($"买{bottle}瓶需要花的钱:"+ result+"元");
+                Console.WriteLine();
+                Console.ReadKey();
+            }
+            #endregion
             //for (int i = 0; i < 7; i++)
             //{
             //    var result = new JumpFloor().jumpFloorII(i);
@@ -142,8 +161,9 @@ namespace MattFengTestMain
             #endregion
 
 
+            //Console.WriteLine(result);
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
     }
