@@ -276,8 +276,9 @@ namespace MattFengTestMain
             } 
             return cpuInfo.ToString();
         }
-        #endregion
+       
 
     }
+    #endregion
 }
 
