@@ -10,6 +10,7 @@ namespace MattFengTestMain.Algorithm
         public int[] reOrderArray(int[] array)
         {
             // write code here
+            return null;
         }
     }
 }

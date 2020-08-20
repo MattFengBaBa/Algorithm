@@ -158,13 +158,18 @@ namespace MattFengTestMain
             //}
             #endregion
 
-            var result = new Power().power(2,3);
-            Console.WriteLine(result);
-            
+            //var result = new Power().power(2,3);
+            //Console.WriteLine(result);
+            var a= Math.Round(0d, 2);
 
+            if (a == 0)
+            {
+                Console.WriteLine("相同");
+            }
+            else
+                Console.WriteLine("不同");
 
             //Console.WriteLine(result);
-
             Console.ReadKey();
         }
 
