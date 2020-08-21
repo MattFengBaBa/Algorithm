@@ -16,22 +16,22 @@ namespace MattFengTestMain
         /// <summary>
         /// 自己用钱买的汽水数量
         /// </summary>
-        public int PayCount { get; set; } 
+        private int PayCount { get; set; } 
 
         /// <summary>
         /// 用瓶子换的汽水总数量
         /// </summary>
-        public int ExChangeCount { get; set; }
+        private int ExChangeCount { get; set; }
 
         /// <summary>
         /// 剩的空瓶子数
         /// </summary>
-        public int RemainCount { get; set; } 
+        private int RemainCount { get; set; } 
 
         /// <summary>
         /// 返的钱
         /// </summary>
-        public double DisCount { get; set; } 
+        private double DisCount { get; set; } 
 
 
         /// <summary>
